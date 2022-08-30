@@ -3,4 +3,5 @@ System.setProperty("webdriver.chrome.driver",projectPath+ "/drivers/chromedriver
         d1.manage().window().maximize();
         d1.get("(\"https://www.selenium.dev/");
         d1.findElement(By.partialLinkText("actiTime")).click();
+        d1.findElement(By.partialLinkText("actiTime")).close();
        
